@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "485409248012",
+    "firebase_url": "https://servicehut-850da.firebaseio.com",
+    "project_id": "servicehut-850da",
+    "storage_bucket": "servicehut-850da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:485409248012:android:3ca97d010da02939",
+        "android_client_info": {
+          "package_name": "com.example.jahadulrakib.servicehut"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "485409248012-1d0dkc938tdfmqhp6ng5pstssn4ojtl6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jahadulrakib.servicehut",
+            "certificate_hash": "4e3abf61d76b3223286e413b5be1003da4fb6ad0"
+          }
+        },
+        {
+          "client_id": "485409248012-ek3b3nbf7jo0r4mm5lh76gqhm9uq2qje.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQbzeO1Yj-Sgy8EVUNW6jvka_BCcvT6eQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "485409248012-ek3b3nbf7jo0r4mm5lh76gqhm9uq2qje.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_clients"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="Clients" />
+        <item
+            android:id="@+id/nav_transection"
+            android:icon="@drawable/ic_monetization_on_black_24dp"
+            android:title="Transection" />
+        <item
+            android:id="@+id/nav_all_post"
+            android:icon="@drawable/ic_local_post_office_black_24dp"
+            android:title="All Posts" />
+        <item
+            android:id="@+id/nav_reports"
+            android:icon="@drawable/ic_compare_black_24dp"
+            android:title="All Reports" />
+    </group>
+
+    <item android:title="Admin Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_add_admin"
+                android:icon="@drawable/ic_person_add_black_24dp"
+                android:title="Add Admin" />
+            <item
+                android:id="@+id/nav_sign_out"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Sign Out" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:background="#ffffff"
+        android:padding="10dp"
+        >
+
+        <EditText
+            android:id="@+id/addDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Add Details..."/>
+        <EditText
+            android:id="@+id/amountMoneyss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Taka"/>
+        <Button
+            android:id="@+id/addItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:background="@drawable/mybutton"
+            android:layout_margin="10dp"
+            />
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/addedItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </android.support.v7.widget.RecyclerView>
+        <TextView
+            android:id="@+id/totalAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

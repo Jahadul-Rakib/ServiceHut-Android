@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LogIn"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:layout_margin="15dp"
+    >
+
+    <ProgressBar
+        android:id="@+id/simpleProgressBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:progress="50"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="30dp"
+        android:text="SERVICE HUT"
+        android:textColor="#000"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/lUserName"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:hint="User Email"
+        android:padding="10dp"
+        android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/lPassword"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lUserName"
+        android:hint="Password"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/lLogin"
+        android:layout_width="213dp"
+        android:layout_height="72dp"
+        android:layout_below="@+id/lPassword"
+        android:text="Sign In"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:text="Do not have Account? Sign Up Here"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        android:background="@drawable/mybutton"
+        />
+
+
+</LinearLayout>

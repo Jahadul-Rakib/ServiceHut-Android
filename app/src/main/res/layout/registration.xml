@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="99dp"
+        android:src="@drawable/ic_image_black_24dp"
+        android:paddingBottom="5dp"/>
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:hint="User Name"
+        android:paddingBottom="5dp"
+        android:paddingTop="10dp"
+        android:inputType="text"/>
+
+
+    <EditText
+        android:id="@+id/uFullName"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:hint="Full Name"
+        android:padding="5dp"
+        android:inputType="text"
+        />
+
+    <Spinner
+        android:id="@+id/uType"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        tools:visibility="visible"
+        android:prompt="@string/firstSelect"
+        android:entries="@array/userType"
+        android:textAlignment="center"
+        />
+
+    <EditText
+        android:id="@+id/uEmail"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:padding="5dp"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/uPassword"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/uPhoneNumber"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number"
+        android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/uAddress"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:hint="Address"
+        android:padding="5dp"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/reg"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Sign Up"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:background="@drawable/mybutton"/>
+
+</LinearLayout>

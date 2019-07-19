@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:gravity="center">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INCOME STRAGEY"
+        android:gravity="center"
+        android:background="#a39d00"
+        android:textColor="#000"
+        />
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/piechart_1"
+        android:layout_width="match_parent"
+        android:layout_height="250sp">
+    </com.github.mikephil.charting.charts.PieChart>
+
+
+
+</LinearLayout>
